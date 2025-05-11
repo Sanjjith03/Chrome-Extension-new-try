@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Auto New Tab on Tab Close",
+    "version": "1.0",
+    "description": "Opens a new tab immediately when a tab is closed. Prevents Chrome from having no tabs.",
+    "permissions": ["tabs"],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
